@@ -1,0 +1,37 @@
+# Node.js
+node_modules/          # Dependências do Node.js
+npm-debug.log          # Logs de erro do npm
+yarn-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+debug.log*
+
+# SQLite
+*.sqlite               # Arquivos SQLite
+*.sqlite3
+*.db                  # Arquivos de banco de dados locais
+
+# Ambientes
+.env                   # Variáveis de ambiente (segredos, chaves de API)
+
+# Sistema Operacional
+.DS_Store              # macOS
+Thumbs.db              # Windows
+
+# Editor de Código
+.vscode/               # Configurações do Visual Studio Code
+.idea/                 # Configurações do IntelliJ
+*.sw?                  # Arquivos temporários de edição
+
+# Builds e Artigos Temporários
+dist/                  # Pasta de build
+temp/                  # Arquivos temporários
+coverage/              # Relatórios de testes
+
+# Outros
+*.bak                  # Arquivos de backup

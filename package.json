@@ -1,0 +1,28 @@
+{
+    "name": "appigreja",
+    "version": "1.0.0",
+    "description": "Aplicativo híbrido com backend em Node.js e frontend em React Native",
+    "scripts": {
+      "start:backend": "cd backend && npm start",
+      "dev:backend": "cd backend && npm run dev",
+      "install:backend": "cd backend && npm install",
+      "install:frontend": "cd frontend && npm install",
+      "start:frontend": "cd frontend && npm start",
+      "build:frontend": "cd frontend && npm run build",
+      "install:all": "npm install && npm run install:backend && npm run install:frontend"
+    },
+    "private": true,
+    "keywords": [
+      "backend",
+      "frontend",
+      "node",
+      "react-native",
+      "hybrid-app"
+    ],
+    "author": "Mathaus",
+    "license": "MIT",
+    "engines": {
+      "node": "v22.11.0"
+    }
+  }
+  
